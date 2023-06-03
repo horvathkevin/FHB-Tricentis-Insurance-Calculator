@@ -126,6 +126,15 @@ appium
 After Appium is started, make sure that your Android emulator is running. Then you can test your Appium configuration with Appium inspector.
 Start Appium Inspector and add the following configuration:
 <img width="1112" alt="image" src="https://github.com/horvathkevin/FHB-Tricentis-Insurance-Calculator/assets/30588277/5a01718d-9078-48c3-8f14-d0a8df68f366">
+Configuration as JSON:
+```json
+{
+  "appium:udid": "emulator-5554",
+  "appium:automationName": "UiAutomator2",
+  "appium:platformName": "Android"
+}
+```
+
 
 After adding the configuration you can click on "Start Session". If everything is configured properly, the session should be created successfully and your screen should look like this:
 <img width="1192" alt="image" src="https://github.com/horvathkevin/FHB-Tricentis-Insurance-Calculator/assets/30588277/3e7b91c0-a816-4b93-b11f-ff92df975631">
